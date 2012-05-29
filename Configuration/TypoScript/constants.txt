@@ -1,0 +1,14 @@
+plugin.tx_simplyfacebooklike {
+	# cat=plugin.tx_simplyfacebooklike//0; type=string; label=Send data
+	data-send = false
+	# cat=plugin.tx_simplyfacebooklike//0; type=string; label=Button Layout
+	data-layout = button_count
+	# cat=plugin.tx_simplyfacebooklike//0; type=string; label=Width
+	data-width = 120
+	# cat=plugin.tx_simplyfacebooklike//0; type=string; label=Show faces
+	data-show-faces = false
+	# cat=plugin.tx_simplyfacebooklike//0; type=string; label=Font
+	data-font = lucida grande
+	# cat=plugin.tx_simplyfacebooklike//0; type=boolean; label=Use root page as url on every page;If true, always use the base url instead of a like button for every single page url.
+	useRootPage = 1
+}

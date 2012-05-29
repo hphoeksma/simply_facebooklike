@@ -1,0 +1,178 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Welcome to Simply FacebookLike’s documentation! &mdash; Simply FacebookLike 1.0.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/typo3sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Simply FacebookLike 1.0.0 documentation" href="#" /> 
+  </head>
+  <body>
+<div id="logo-div">
+  <a href="#" title="Start">
+    <img id="logo-img" src="_static/typo3-logo.png" 
+         border="0" alt="TYPO3 Logo" />
+  </a>
+</div>
+
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+  <li><a href="#">home</a>|&nbsp;</li>
+  <li><a href="search.html">search</a>|&nbsp;</li>
+ 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Welcome to Simply FacebookLike&#8217;s documentation!</a><ul>
+<li><a class="reference internal" href="#what-does-it-do">What does it do?</a></li>
+<li><a class="reference internal" href="#installing-simply-facebooklike">Installing Simply FacebookLike</a></li>
+<li><a class="reference internal" href="#using-simply-facebooklike">Using Simply FacebookLike</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="welcome-to-simply-facebooklike-s-documentation">
+<h1>Welcome to Simply FacebookLike&#8217;s documentation!<a class="headerlink" href="#welcome-to-simply-facebooklike-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+<div class="section" id="what-does-it-do">
+<h2>What does it do?<a class="headerlink" href="#what-does-it-do" title="Permalink to this headline">¶</a></h2>
+<p>This extension provides you with a TypoScript object for a Like button.
+Default the url of the like button is set to be the page&#8217;s root page url.
+Can be set to render a different like button for every page.</p>
+</div>
+<div class="section" id="installing-simply-facebooklike">
+<h2>Installing Simply FacebookLike<a class="headerlink" href="#installing-simply-facebooklike" title="Permalink to this headline">¶</a></h2>
+<p>Installing Simply FacebookLike is as simple as downloading it from <a class="reference external" href="http://typo3.org/extensions/repository/">TER</a>.</p>
+<p>After installing it, include the Static Templates in your main template.
+Now you can alter the options of the like button using the constant editor to make it match your needs.</p>
+<p>The following options are available, see for it&#8217;s options the respective <a class="reference external" href="http://developers.facebook.com/docs/reference/plugins/like/">FaceBook page</a>:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="31%" />
+<col width="44%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Option</th>
+<th class="head">What it does</th>
+<th class="head">Default value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>data-send</td>
+<td>Send data</td>
+<td>false</td>
+</tr>
+<tr class="row-odd"><td>data-layout</td>
+<td>Button Layout</td>
+<td>button_count</td>
+</tr>
+<tr class="row-even"><td>data-width</td>
+<td>Width</td>
+<td>120</td>
+</tr>
+<tr class="row-odd"><td>data-show-faces</td>
+<td>Show faces</td>
+<td>false</td>
+</tr>
+<tr class="row-even"><td>data-font</td>
+<td>Font</td>
+<td>lucida grande</td>
+</tr>
+<tr class="row-odd"><td>useRootPage</td>
+<td>Use the rootpage as url</td>
+<td>1 (boolean)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="using-simply-facebooklike">
+<h2>Using Simply FacebookLike<a class="headerlink" href="#using-simply-facebooklike" title="Permalink to this headline">¶</a></h2>
+<p>The extension generated a typoscript library object with the like button for you.
+You can use it in your templates by accessing it via it&#8217;s objectpath: <cite>lib.facebookLike</cite>.</p>
+<p>You can use for example the following TypoScript to render it on your page:</p>
+<div class="highlight-python"><pre>page.10 &lt; .lib.facebookLike</pre>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+  <li><a href="#">home</a>|&nbsp;</li>
+  <li><a href="search.html">search</a>|&nbsp;</li>
+ 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Henjo Hoeksma.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>
